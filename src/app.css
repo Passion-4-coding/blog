@@ -3,6 +3,9 @@
 	--font-main: 'Montserrat';
 	--color-white: #ffffff;
 	--color-primary: #6764E9;
+	--color-primary-10: #f0f0fd;
+  --color-text: #242424;
+  --color-secondary-text: #b2b2b2;
 }
 
 * {
@@ -15,6 +18,7 @@ html {
 
 body, p, h1, h2, h3, h4, h5, h6 {
 	margin: 0px;
+  color: var(--color-text);
 }
 
 /* montserrat-300 - cyrillic_latin */
