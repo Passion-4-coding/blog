@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sentry/sveltekit": "^7.58.1",
 		"date-fns": "^2.30.0"
 	}
 }

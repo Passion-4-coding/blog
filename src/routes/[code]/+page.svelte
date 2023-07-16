@@ -3,7 +3,6 @@
 	import { format } from 'date-fns';
 	import ua from 'date-fns/locale/uk';
 	import Link from '../../components/Link.svelte';
-	console.log($page.data.articles)
 </script>
 
 		{#each $page.data.articles as article, index}
