@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import { format } from 'date-fns';
-	import ua from 'date-fns/locale/uk';
+	import ua from 'date-fns/locale/uk/index.js';
 	import Link from '../../components/Link.svelte';
 </script>
 
