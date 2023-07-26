@@ -1,5 +1,6 @@
-const VITE_API_URL = import.meta.env.VITE_API_URL;
 import * as Sentry from '@sentry/sveltekit';
+
+const VITE_API_URL = import.meta.env.VITE_API_URL;
 
 export const load = async ({ params, fetch }) => {
   const transaction = Sentry.startTransaction({

@@ -1,5 +1,20 @@
 <script lang="ts">
 	import { page } from "$app/stores";
+  import hljs from 'highlight.js';
+  import typescript from 'highlight.js/lib/languages/typescript.js';
+  import 'highlight.js/styles/github.css';
+	import { onMount } from "svelte";
+
+  hljs.registerLanguage('typescript', typescript);
+
+  let container: HTMLDivElement;
+  
+  onMount(() => {
+    const codes = container.querySelectorAll('pre');
+    codes.forEach(el => {
+      hljs.highlightElement(el);
+    });
+  })
 </script>
 
 <svelte:head>
@@ -18,7 +33,7 @@
   <link rel="alternate" hreflang="en" href="https://blog.pfc.dev/en/{$page.data.article.slug}" />
 </svelte:head>
 
-<div class="container">
+<div class="container" bind:this={container}>
   <div class="article">
     <h1 class="title">{$page.data.article.title}</h1>
     <div class="article-content">
@@ -37,5 +52,9 @@
   }
   .article-content :global(strong) {
     font-weight: 600;
+  }
+  .article-content :global(pre) {
+    background-color: #F2F2F2;
+    padding: 12px;
   }
 </style>
