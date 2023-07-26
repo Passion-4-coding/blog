@@ -56,5 +56,18 @@
   .article-content :global(pre) {
     background-color: #F2F2F2;
     padding: 12px;
+    max-width: 100%;
+    overflow: auto;
   }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .article-content {
+      font-size: 16px;
+      line-height: 24px;
+    }
+	}
 </style>

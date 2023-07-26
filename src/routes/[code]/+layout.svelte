@@ -67,4 +67,10 @@
   .language a:hover {
     text-decoration: underline;
   }
+
+	@media screen and (max-width: 600px) {
+		.content {
+			padding: 10px;
+		}
+	}
 </style>
