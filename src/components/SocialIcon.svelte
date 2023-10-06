@@ -11,12 +11,12 @@
   }
   const getLink = () => {
     if (icon === "instagram") {
-      return "https://discord.gg/passion-for-coding";
+      return "https://instagram.com/pfc.dev?igshid=YTQwZjQ0NmI0OA==";
     }
     if (icon === "telegram") {
       return "https://t.me/pfc_ua";
     }
-    return "https://instagram.com/pfc.dev?igshid=YTQwZjQ0NmI0OA==";
+    return "https://discord.gg/passion-for-coding";
   }
 </script>
 

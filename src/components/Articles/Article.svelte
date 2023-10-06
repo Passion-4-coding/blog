@@ -3,8 +3,6 @@
 	import { calculateReadingTime } from "./utils";
 
   export let article: IArticle;
-  
-  console.log(article)
 </script>
 
 <a class="container" href="/articles/{article.slug}">

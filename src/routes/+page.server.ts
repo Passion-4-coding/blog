@@ -14,7 +14,6 @@ export const load = async ({ fetch }) => {
   try {
     const response = await fetch(`${VITE_API_URL}/articles?page=1&pageSize=3`);
     const articles = await response.json();
-    console.log(articles.list)
     return {
       articles: articles.list
     }

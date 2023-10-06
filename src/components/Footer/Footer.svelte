@@ -1,6 +1,4 @@
 <script lang="ts">
-  // your script goes here
-
 	import Logo from "../Header/Logo.svelte";
 	import SocialIcon from "../SocialIcon.svelte";
 	import FooterDoodles from "./FooterDoodles.svelte";
@@ -27,11 +25,7 @@
       <nav>
         <a href="#about">Про нас</a>
         <hr />
-        <a href="#social">Соц мережі</a>
-        <hr />
         <a href="#articles">Статті</a>
-        <hr />
-        <a href="https://pfc.dev/ua">Головний сайт</a>
       </nav>
       <div class="social">
         <SocialIcon icon="instagram" />
