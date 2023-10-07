@@ -97,8 +97,31 @@
   }
 
   .content :global(p) {
-    font-size: 20px;
     font-weight: 400;
+  }
+
+  .content :global(blockquote) {
+    box-shadow: inset 3px 0 0 0 var(--color-secondary);
+    margin: 10px 0px;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  .content :global(ul) {
+    list-style: none;
+  }
+
+  .content :global(p), .content :global(ul li), .content :global(h4) {
+    font-size: 20px;
+  }
+
+  .content :global(ul li::before) {
+    content: "\2022";
+    color: var(--color-secondary);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
   }
 
   .content :global(pre) {
@@ -120,6 +143,7 @@
     list-style-type: none;
     padding-left: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     padding-top: 20px;
   }
@@ -129,13 +153,14 @@
     padding: 4px 6px;
     border-radius: var(--border-radius);
     font-size: 18px;
+    white-space: nowrap;
   }
 
   @media screen and (max-width: 768px) {
     .content :global(h3) {
       font-size: 22px;
     }
-    .content :global(p) {
+    .content :global(p), .content :global(ul li), .content :global(h4) {
       font-size: 18px;
     }
     .container {
@@ -166,6 +191,10 @@
 
     .tags {
       justify-content: center;
+    }
+
+    .tag {
+      font-size: 16px;
     }
 
     .content :global(pre) {
