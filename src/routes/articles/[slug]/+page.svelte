@@ -1,11 +1,19 @@
 <script>
+	import { onMount } from "svelte";
 	import { calculateReadingTime } from "../../../components/Articles/utils";
 	import Title from "../../../components/Title.svelte";
   import { format } from "date-fns";
+	import Loader from "../../../components/Loader.svelte";
 
   export let data;
+  let loaded = false;
+
+  onMount(() => {
+    loaded = true;
+  })
 
   const readingTime = calculateReadingTime(data.article.content);
+
 </script>
 
 <svelte:head>
@@ -21,6 +29,7 @@
   <meta property="twitter:description" content={data.article.descriptionSeo} />
 </svelte:head>
 
+{#if loaded}
 <div class="container">
   <Title>{data.article.title}</Title>
   <div class="author">
@@ -45,6 +54,9 @@
     {/each}
   </ul>
 </div>
+{:else}
+<Loader />
+{/if}
 
 <style>
   .container {

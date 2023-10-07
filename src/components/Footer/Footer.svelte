@@ -10,11 +10,13 @@
     class="cat"
     srcset="/images/footer-cat-t.jpg 768w, /images/footer-cat-m.jpg 500w"
     src="/images/footer-cat-d.jpg"
+    fetchpriority="low"
     alt="footer cat"
   >
   <footer>
     <img
       class="paws"
+      fetchpriority="low"
       srcset="/images/paws-t.png 768w, /images/paws-m.png 500w"
       src="/images/paws-d.png"
       alt="footer cat paws"
