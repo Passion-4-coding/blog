@@ -6,13 +6,12 @@
 </script>
 
 <div class="container">
-  <img
-    class="cat"
-    srcset="/images/footer-cat-t.jpg 768w, /images/footer-cat-m.jpg 500w"
-    src="/images/footer-cat-d.jpg"
-    fetchpriority="low"
-    alt="footer cat"
-  >
+  <picture>
+    <source srcset="/images/footer-cat-d.webp, /images/footer-cat-t.webp 768w, /images/footer-cat-m.webp 500w" type="image/webp" />
+    <source srcset="/images/footer-cat-d.avif, /images/footer-cat-t.avif 768w, /images/footer-cat-m.avif 500w" type="image/avif" />
+    <source srcset="/images/footer-cat-d.jpg, /images/footer-cat-t.jpg 768w, /images/footer-cat-m.jpg 500w" />
+    <img class="cat" src="/images/footer-cat-d.jpg" alt="footer cat" fetchpriority="low" />
+  </picture>
   <footer>
     <img
       class="paws"
