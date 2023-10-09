@@ -3,12 +3,17 @@
 	import { calculateReadingTime } from "./utils";
 
   export let article: IArticle;
+
+  const getAvatarExtension = (avatar: string) => {
+    return avatar.replace(".png?size=256", ".webp")
+  }
+
 </script>
 
 <a class="container" href="/articles/{article.slug}">
   <div class="author">
     <div class="avatar">
-      <img src={article.author.avatar} alt={article.author.username}>
+      <img src={getAvatarExtension(article.author.avatar)} alt={article.author.username}>
     </div>
     <div class="name">{article.author.blogname ? article.author.blogname : ""} @{article.author.username}</div>
   </div>

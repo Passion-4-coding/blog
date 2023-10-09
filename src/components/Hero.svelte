@@ -24,6 +24,12 @@
     background-repeat: no-repeat;
     background-position: 100% 0px;
   }
+  :global(.avif) .container {
+    background-image: url(/images/hero-cat-d.avif);
+  }
+  :global(.webp) .container {
+    background-image: url(/images/hero-cat-d.webp);
+  }
   .content {
     max-width: 510px;
     padding-left: 80px;
@@ -43,6 +49,12 @@
       background-repeat: no-repeat;
       background-position: right 300px;
     }
+    :global(.avif) .container {
+      background-image: url(/images/hero-cat-t.avif);
+    }
+    :global(.webp) .container {
+      background-image: url(/images/hero-cat-t.webp);
+    }
     .content {
       text-align: center;
       max-width: 90%;
@@ -54,6 +66,12 @@
       background-image: url(/images/hero-cat-m.jpg);
       padding-top: 20px;
       height: 500px;
+    }
+    :global(.avif) .container {
+      background-image: url(/images/hero-cat-m.avif);
+    }
+    :global(.webp) .container {
+      background-image: url(/images/hero-cat-m.webp);
     }
     h1 {
       font-size: 28px;

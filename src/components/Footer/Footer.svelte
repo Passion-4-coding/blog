@@ -13,13 +13,12 @@
     <img class="cat" src="/images/footer-cat-d.jpg" alt="footer cat" fetchpriority="low" />
   </picture>
   <footer>
-    <img
-      class="paws"
-      fetchpriority="low"
-      srcset="/images/paws-t.png 768w, /images/paws-m.png 500w"
-      src="/images/paws-d.png"
-      alt="footer cat paws"
-    >
+    <picture>
+      <source srcset="/images/paws-d.webp, /images/paws-t.webp 768w, /images/paws-m.webp 500w" type="image/webp" />
+      <source srcset="/images/paws-d.avif, /images/paws-t.avif 768w, /images/paws-m.avif 500w" type="image/avif" />
+      <source srcset="/images/paws-d.jpg, /images/paws-t.jpg 768w, /images/paws-m.jpg 500w" />
+      <img class="paws" src="/images/paws-d.jpg" alt="footer cat paws" fetchpriority="low" />
+    </picture>
     <div class="content">
       <Logo inFooter />
       <a href="mailto:alex@pfc.dev" class="mail">alex@pfc.dev</a>
