@@ -4,8 +4,8 @@
 
   export let article: IArticle;
 
-  const getAvatarExtension = (avatar: string) => {
-    return avatar.replace(".png?size=256", ".webp")
+  const getAvatarExtension = (avatar: string, ext: string) => {
+    return avatar.replace("png?size=256", ext)
   }
 
 </script>
@@ -13,7 +13,10 @@
 <a class="container" href="/articles/{article.slug}">
   <div class="author">
     <div class="avatar">
-      <img src={getAvatarExtension(article.author.avatar)} alt={article.author.username}>
+      <picture>
+        <source srcset={getAvatarExtension(article.author.avatar, "webp")} type="image/webp" />
+        <img width="70" height="70" src={getAvatarExtension(article.author.avatar, "jpg")} alt={article.author.username} />
+      </picture>
     </div>
     <div class="name">{article.author.blogname ? article.author.blogname : ""} @{article.author.username}</div>
   </div>
