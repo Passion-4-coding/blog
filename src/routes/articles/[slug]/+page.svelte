@@ -21,12 +21,13 @@
   <meta name="title" content={data.article.titleSeo} />
   <meta name="description" content={data.article.descriptionSeo} />
   <meta name="keywords" content={data.article.keywordsSeo} />
-  <meta property="og:url" content="https://pfc.dev/articles/{data.article.slug}" />
+  <meta property="og:url" content="https://pfc.dev/articles/{data.article.slug}/" />
   <meta property="og:title" content={data.article.titleSeo} />
   <meta property="og:description" content={data.article.descriptionSeo} />
-  <meta property="twitter:url" content="https://pfc.dev/articles/{data.article.slug}" />
+  <meta property="twitter:url" content="https://pfc.dev/articles/{data.article.slug}/" />
   <meta property="twitter:title" content={data.article.titleSeo} />
   <meta property="twitter:description" content={data.article.descriptionSeo} />
+  <link rel="canonical" href="https://pfc.dev/articles/{data.article.slug}/">
 </svelte:head>
 
 {#if loaded}

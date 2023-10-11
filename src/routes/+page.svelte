@@ -11,14 +11,15 @@
 <svelte:head>
   <title>Українська Спільнота Розробників | Passion for coding</title>
   <meta name="title" content="Українська Спільнота Розробників | Passion for coding">
-  <meta name="description" content="Passion for coding - українська спільнота для програмістів, зосереджена на створенні позитивної атмосфери для навчання та співпраці. Приєднуйтесь до нас сьогодні!">
+  <meta name="description" content="Passion for coding - українська спільнота для програмістів, зосереджена на створенні позитивної атмосфери для навчання та співпраці.">
   <meta name="keywords" content="спільнота розробників, українська спільнота, україномовний контент, програмування, кодування, навчання, співпраця, Passion for coding">
   <meta property="og:title" content="Українська Спільнота Розробників | Passion for coding">
-  <meta property="og:description" content="Passion for coding - українська спільнота для програмістів, зосереджена на створенні позитивної атмосфери для навчання та співпраці. Приєднуйтесь до нас сьогодні!">
+  <meta property="og:description" content="Passion for coding - українська спільнота для програмістів, зосереджена на створенні позитивної атмосфери для навчання та співпраці.">
   <meta property="twitter:title" content="Українська Спільнота Розробників | Passion for coding">
-  <meta property="twitter:description" content="Passion for coding - українська спільнота для програмістів, зосереджена на створенні позитивної атмосфери для навчання та співпраці. Приєднуйтесь до нас сьогодні!">	
-	<meta property="og:url" content="https://pfc.dev">
-  <meta property="twitter:url" content="https://pfc.dev">
+  <meta property="twitter:description" content="Passion for coding - українська спільнота для програмістів, зосереджена на створенні позитивної атмосфери для навчання та співпраці.">	
+	<meta property="og:url" content="https://pfc.dev/">
+  <meta property="twitter:url" content="https://pfc.dev/">
+  <link rel="canonical" href="https://pfc.dev/">
 </svelte:head>
 
 <Hero />

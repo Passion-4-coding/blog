@@ -14,8 +14,9 @@
   <meta property="og:description" content="Passion for coding - українська спільнота для програмістів. Статті на тему програмування українською. Починай вивчати вже сьогодні.">
   <meta property="twitter:title" content="Усі статті | Українська Спільнота Розробників | Passion for coding">
   <meta property="twitter:description" content="Passion for coding - українська спільнота для програмістів. Статті на тему програмування українською. Починай вивчати вже сьогодні.">	
-	<meta property="og:url" content="https://pfc.dev/articles">
-  <meta property="twitter:url" content="https://pfc.dev/articles">
+	<meta property="og:url" content="https://pfc.dev/articles/">
+  <meta property="twitter:url" content="https://pfc.dev/articles/">
+  <link rel="canonical" href="https://pfc.dev/articles/">
 </svelte:head>
 
 <div class="container">
