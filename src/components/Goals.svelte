@@ -1,7 +1,5 @@
 <script lang="ts">
 	import Title from "./Title.svelte";
-
-  // your script goes here
 </script>
 
 <div class="container">
@@ -10,19 +8,19 @@
     <div class="goals">
       <div class="goal">
         <div class="number">01</div>
-        <p class="text">Допомагати розробникам ставати кращими.</p>
+        <p class="text">Допомагати розробникам ставати кращими. Наші статті будуть корисними як новачкам, так і досвідченим спеціалістам.</p>
       </div>
       <div class="goal">
         <div class="number">02</div>
-        <p class="text">Поширювати та розвивати україномовний контент.</p>
+        <p class="text">Поширювати та розвивати україномовний контент. Вся інформація на нашому сайті доступна українською мовою.</p>
       </div>
       <div class="goal">
         <div class="number">03</div>
-        <p class="text">Розповідати про фріланс, його переваги та недоліки.</p>
+        <p class="text">Розповідати про фріланс, його переваги та недоліки. Засновник спільноти - досвідчений фрілансер.</p>
       </div>
       <div class="goal">
         <div class="number">04</div>
-        <p class="text">Створити затишне місце, де тобі буде цікаво проводити час.</p>
+        <p class="text">Створити затишне місце, де тобі буде цікаво проводити час. І ми впевнені що тобі тут сподобається.</p>
       </div>
     </div>
   </div>
@@ -30,7 +28,7 @@
 
 <style>
   .container {
-    padding: 50px 40px;
+    padding: 40px;
   }
   .goals {
     display: grid;
@@ -61,7 +59,7 @@
 
   @media screen and (max-width: 768px) {
     .container {
-      padding-top: 40px;
+      padding: 30px;
     }
     .goals {
       grid-column-gap: 30px;
@@ -83,7 +81,7 @@
 
   @media screen and (max-width: 500px) {
     .container {
-      padding-top: 30px;
+      padding: 20px 0px;
     }
     .goals {
       grid-row-gap: 20px;

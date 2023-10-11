@@ -7,7 +7,7 @@
   <div class="content">
     <Title>Про нас</Title>
     <Paragraph align="center">
-      Ми спільнота розробників, що активно розвивається. Passion for coding була створена для об'єднання людей, щоб створити гарну атмосферу для спільного навчання. Головною  метою нашого блогу є поширення корисного контенту. Саме тут ми розповідаємо цікаве зі світу ІТ: фріланс, програмування, дизайн та інше. 
+      Ми українська спільнота розробників, що активно розвивається. Passion for coding була заснована для об'єднання людей, щоб створити гарну атмосферу для спільного навчання. Головною  метою нашого блогу є поширення корисного контенту. Саме тут ми розповідаємо цікаве зі світу ІТ: фріланс, програмування, дизайн та інше. 
     </Paragraph>
   </div>
   <img class="doodle-4" src="/images/doodle-4.svg" alt="doodle">
@@ -21,7 +21,7 @@
 <style>
   .container {
     background-color: var(--color-primary);
-    padding: 60px 40px;
+    padding: 40px;
     position: relative;
     overflow: hidden;
   }
@@ -76,6 +76,9 @@
   }
 
   @media screen and (max-width: 768px) {
+    .container {
+      padding: 30px;
+    }
     .content {
       padding: 50px 40px;
     }

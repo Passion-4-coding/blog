@@ -20,7 +20,7 @@
 
 <style>
   .container {
-    padding: 50px 40px;
+    padding: 40px;
   }
 
   .social {
@@ -33,6 +33,18 @@
   .content {
     max-width: 800px;
     margin: 0 auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 30px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .container {
+      padding: 20px 0px;
+    }
   }
 </style>
 

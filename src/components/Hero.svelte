@@ -4,9 +4,9 @@
 </script>
 <div class="container">
   <div class="content">
-    <h1>Привіт</h1>
+    <h1>Вітаємо в айтішному україномовному блозі "Passion for coding"</h1>
     <Paragraph>
-      У нашому блозі ти можеш знайти багато корисної та цікавої інформації для розробників, яка допоможе піднятися по кар’єрним сходинкам. Тож швиденько заварюй смачний чай і починай знайомство з якісним україномовним контентом.
+      Тут ти можеш знайти багато корисної та цікавої інформації для розробників, яка допоможе піднятися по кар’єрним сходинкам. Тож швиденько заварюй смачний чай і починай знайомство з якісним україномовним контентом.
     </Paragraph>
     <Paragraph>
       Бажаємо гарного читання!
@@ -19,10 +19,10 @@
     display: flex;
     align-items: center;
     background-image: url(/images/hero-cat-d.jpg);
-    height: 500px;
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: 100% 0px;
+    background-position: right 0px;
+    padding: 40px 0px;
   }
   :global(.avif) .container {
     background-image: url(/images/hero-cat-d.avif);
@@ -44,10 +44,8 @@
       background-image: url(/images/hero-cat-t.jpg);
       justify-content: center;
       align-items: flex-start;
-      padding-top: 40px;
-      height: 600px;
-      background-repeat: no-repeat;
-      background-position: right 300px;
+      padding: 30px 0px 40vw;
+      background-position: right 400px;
     }
     :global(.avif) .container {
       background-image: url(/images/hero-cat-t.avif);
@@ -64,8 +62,11 @@
   @media screen and (max-width: 500px) {
     .container {
       background-image: url(/images/hero-cat-m.jpg);
-      padding-top: 20px;
-      height: 500px;
+      padding: 30px 0px 30vw;
+      background-position: right 300px;
+    }
+    .content {
+      max-width: 100%;
     }
     :global(.avif) .container {
       background-image: url(/images/hero-cat-m.avif);
@@ -74,7 +75,7 @@
       background-image: url(/images/hero-cat-m.webp);
     }
     h1 {
-      font-size: 28px;
+      font-size: 24px;
       font-weight: 600;
       margin: 0px 0px 15px;
     }

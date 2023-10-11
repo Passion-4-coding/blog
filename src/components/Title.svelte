@@ -17,6 +17,7 @@
   @media screen and (max-width: 768px) {
     h3 {
       font-size: 28px;
+      margin-bottom: 30px;
     }
     span {
       border-bottom: 3px solid var(--color-secondary);
@@ -26,6 +27,7 @@
   @media screen and (max-width: 500px) {
     h3 {
       font-size: 24px;
+      margin-bottom: 20px;
     }
     span {
       border-bottom: 2px solid var(--color-secondary);

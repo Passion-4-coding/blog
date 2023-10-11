@@ -21,7 +21,7 @@
 </script>
 
 <a class="icon" href={getLink()}>
-  <img width="90" height="90" src={getIcon()} alt={icon}>
+  <img width="70" height="70" src={getIcon()} alt={icon}>
 </a>
 
 <style>

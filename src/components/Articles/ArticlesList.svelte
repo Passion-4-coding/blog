@@ -22,8 +22,9 @@
     flex-direction: column;
     gap: 50px;
   }
+
   .container {
-    padding: 60px 40px;
+    padding: 40px;
   }
 
   a {
@@ -44,12 +45,22 @@
 
   @media screen and (max-width: 768px) {
     .container {
-      padding: 50px 40px;
+      padding: 30px;
+    }
+    .articles {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
     }
   }
   @media screen and (max-width: 500px) {
     .container {
-      padding: 20px 10px;
+      padding: 20px 0px;
+    }
+    .articles {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
   }
 </style>

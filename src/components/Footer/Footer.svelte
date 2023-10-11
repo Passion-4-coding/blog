@@ -51,6 +51,7 @@
     right: 0px;
     margin: 0 auto;
     max-width: 600px;
+    height: auto;
   }
   .paws {
     position: absolute;
@@ -59,6 +60,7 @@
     left: 0px;
     right: 0px;
     margin: 0 auto;
+    height: auto;
   }
   footer {
     background-color: var(--color-primary);
