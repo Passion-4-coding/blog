@@ -1,9 +1,9 @@
-<h3><span>
+<h2><span>
   <slot />
-</span></h3>
+</span></h2>
 
 <style>
-  h3 {
+  h2 {
     font-size: 36px;
     font-weight: 600;
     margin: 0px;
@@ -15,7 +15,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    h3 {
+    h2 {
       font-size: 28px;
       margin-bottom: 30px;
     }
@@ -25,7 +25,7 @@
 	}
 
   @media screen and (max-width: 500px) {
-    h3 {
+    h2 {
       font-size: 24px;
       margin-bottom: 20px;
     }

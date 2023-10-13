@@ -1,7 +1,7 @@
 <nav>
   <a href="#about">Про нас</a>
   <a href="#socials">Соц мережі</a>
-  <a href="#articles">Статті</a>
+  <a href="/articles">Статті</a>
 </nav>
 
 <style>
